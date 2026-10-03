@@ -13,7 +13,7 @@
 ## Contents
 
 - [About the course](#-about-the-course)
-- [Repository contents](#-repository-contents)
+- [Repository structure](#-repository-structure)
 - [Tools](#-tools)
 - [Analysis approach](#-analysis-approach)
 - [Suggested structure](#-suggested-structure)
@@ -25,11 +25,47 @@
 
 This repository contains coursework and learning materials for the course. Its main focus is **Exploratory Data Analysis (EDA)**, data preparation, visualization, and a structured workflow using the **PACE** framework.
 
-## Repository contents
+## Repository structure
 
-This repository is intended for coursework in data analysis and visualization. Each assignment can be organized as a separate notebook or project, with a brief description of the question, analysis steps, and findings.
+The repository contains Course 2 labs, their example notebooks and datasets, Tableau workbooks, and the end-of-course TikTok project.
 
-> **Note:** No assignment or dataset files are currently present in the repository folder. The structure below is a suggested way to organize them, not a list of files that already exist.
+```text
+.
+├── README.md
+├── LICENSE
+├── eda-banner.svg
+└── Course_2/
+    ├── Lab_course_2_modul_2/
+    │   ├── Activity_Discover what is in your dataset.ipynb
+    │   ├── Exemplar_Discover what is in your dataset.ipynb
+    │   └── Unicorn_Companies.csv
+    ├── Lab_course_2_module_2.2/
+    │   ├── Activity_Structure your data.ipynb
+    │   ├── Exemplar_Structure your data.ipynb
+    │   └── Unicorn_Companies.csv
+    ├── Lab_course_2_module_3.1/
+    │   ├── Activity_Address missing data.ipynb
+    │   ├── Exemplar_Address missing data.ipynb
+    │   └── Unicorn_Companies.csv
+    ├── Lab_course_2_module_3.2/
+    │   ├── Activity_Validate and clean your data.ipynb
+    │   ├── Exemplar_Validate and clean your data.ipynb
+    │   └── Modified_Unicorn_Companies.csv
+    ├── Project_end_of_course_2/
+    │   ├── Activity_Course 3 TikTok project lab.ipynb
+    │   ├── tiktok_dataset.csv
+    │   └── images/
+    │       ├── Analyze.png
+    │       ├── Construct.png
+    │       ├── Execute.png
+    │       ├── Pace.png
+    │       └── Plan.png
+    ├── Tableau_project_course_2.twbx
+    ├── Tableau_project_end_of_course_2.twbx
+    └── tiktok_dataset.csv
+```
+
+The labs cover discovering a dataset, structuring data, addressing missing values, and validating and cleaning data. The end-of-course project focuses on TikTok data and follows the PACE workflow. The tree above reflects the repository structure shown in the provided screenshots.
 
 ## Tools
 
@@ -71,26 +107,6 @@ This repository is intended for coursework in data analysis and visualization. E
 | **A — Analyze** | Prepare and explore the data using EDA |
 | **C — Construct** | Create visualizations and communicate the results clearly |
 | **E — Execute** | Present findings and identify possible next steps |
-
-## Suggested structure
-
-```text
-.
-├── README.md
-├── eda-banner.svg
-├── data/
-│   ├── raw/                  # Original data, if sharing is permitted
-│   └── processed/            # Prepared datasets
-├── notebooks/
-│   ├── task-01-eda.ipynb
-│   └── task-02-insights.ipynb
-├── tableau/
-│   └── dashboard-links.md    # Links to published dashboards
-└── reports/
-    └── findings.md           # Brief findings for each assignment
-```
-
-Add only folders and files that match the actual project contents. Before publishing, check whether you are allowed to share the course datasets.
 
 ## Running the projects
 
